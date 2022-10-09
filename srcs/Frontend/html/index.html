@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>test task L-0</title>
+</head>
+<body style="background-color: #00dfc4;" font-family: 'Roboto', sans-serif;>
+    <h2 class="Header" style="padding-top: 10px">Показать JSON</h2>
+    <div class="InputBox">
+    <form action="/" method="post">
+        <input name="input_id" id="input_id" required type="search" placeholder="Введите id">
+        <button style="width: 150px" >Выгрузить</button>
+        <h3 style="margin: 10px ">Всего {{ .Length }} json</h3>
+    </form>  
+    </div>  
+    <p style="white-space: pre" >{{ .Model }}</p>
+</body>
+</html>

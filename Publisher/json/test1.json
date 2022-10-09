@@ -1,0 +1,12 @@
+{
+    "entry": "yj",
+    "customers": {
+        "first_name": "Penny",
+        "last_name": "Smith",
+        "phone_number": "+14165723771",
+        "district": "South",
+        "street": "First Avenue",
+        "house": 1,
+        "apartment": 10
+    }
+}
